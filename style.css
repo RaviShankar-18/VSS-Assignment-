@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 400px;
+    height: 500px;
+    background-color: azure;
+    border-radius:4px;
+    display: inline-flexbox;
+    justify-items: center;
+    box-shadow: 2px;
+    
+    
+    
+    
+}
+
+button{
+    background-color: blue;
+    color: azure;
+    padding: 8px;
+    
+}
+

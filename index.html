@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reset Password Page</title>
+</head>
+<body>
+
+   
+    <form id="resetPasswordForm">
+        <h1>Choose new password</h1>
+        Almost done.Enter your new password and youre all set.
+        <br>
+        <br>
+        <label for="newPassword">Create a password</label><br><br>
+        <input type="password" id="newPassword" name="newPassword" required>
+
+        <br>
+        <br>
+        
+        <label for="confirmPassword">Confirm new password</label><br><br>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+      
+        <br>
+        <br>
+        
+        <button type="submit">Reset password</button>
+        
+        <div id="errorMessages"></div>
+        <div id="successMessages"></div>
+      </form>
+      
+    <script src="script.js"></script>
+</body>
+</html>
